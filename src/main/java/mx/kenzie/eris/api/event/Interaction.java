@@ -266,7 +266,9 @@ public class Interaction extends Entity implements Event, Replied {
 
     public class Data extends Optioned {
 
-        public String name, id, guild_id, target_id;
+        public String name;
+        public Integer id;
+        public String guild_id, target_id;
         public Integer type;
 
         public Row[] components;
